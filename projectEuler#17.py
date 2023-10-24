@@ -67,28 +67,20 @@ def nlc(n):
         
     
     
-
-
-    
-'''
-for i in range(99):
-    test = nlc(i)
-    total = test
-
-    print(test)
-'''
-
-
 test = map(nlc,numbers)
-
 x = list(test)
 y = sum(x)
+
 #print(x)
 print(y)
 print(len(x))
 result = y + 11
 print(result)
+
+
+
 '''
+debugging code
 #print(numbers)
 for i in range(len(x)):
     
@@ -96,8 +88,3 @@ for i in range(len(x)):
 
 '''
 
-
-'''
-one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty 
-twenty thirty forty fifty sixty seventy eighty ninety one hundred and one
-'''
