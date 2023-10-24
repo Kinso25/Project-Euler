@@ -12,9 +12,5 @@ sumOf = str(sumOf)
 for j in range(0,10):
     print(sumOf[j])
 
- 
-    
-5537376230
-
 print(sumOf)
 

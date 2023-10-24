@@ -7,7 +7,7 @@ def getSum(n):
     listn = list(map(int, strn.strip()))
     return sum(listn)
 
-bigNum = pow(2,1000)
+bigNum = 2**1000
 print(bigNum) 
 result = getSum(bigNum)
 print(result)
